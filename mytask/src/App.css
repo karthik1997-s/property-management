@@ -1,0 +1,159 @@
+
+#root{
+  font-family: 'Inter', sans-serif;
+}
+.App {
+  text-align: left;
+}
+
+.Logo{
+  margin-top: -56rem;
+  padding-left: 73rem;
+  display: block;
+}
+.Title{
+  display: block;
+  padding-left: 61.8rem;
+}
+.login-form-forgot{
+
+  color: #4caf50;
+  position: absolute;
+  
+ 
+  right: 2px;
+}
+.img{
+  width: 58rem;
+  height: 57rem ;
+ 
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50% 50%;
+
+}
+.button{
+  background-color: #4caf50;
+}
+.login-form{
+  position: absolute;
+  float: 'right';
+  max-width: 700px;
+  width: 420px;
+  margin-top: 100px;
+  padding-left: 6rem;
+
+}
+ 
+.login-form-button {
+  width: 100%;
+  border: #4caf50;
+  background-color: #4caf50;
+}
+.icon-span{
+  
+  position: absolute;
+  right: 10px;
+  top: 336px;
+  height: 100%;
+  display: inherit;
+  align-items: center;
+}
+
+.colorChange{
+  background-color: #4caf50;
+}
+.card{
+  min-width: 20%;
+  min-height: 20%;
+
+}
+
+.ant-table-thead .ant-table-cell {
+  background-color:white;
+}
+
+.ant-menu-vertical > .ant-menu-item:hover{
+  
+  
+  /* background: rgba(72, 153, 117, 0.1); */
+  background-color: rgba(72, 153, 117, 0.1) ;
+  color: black  !important;
+  width: 236px;
+  height: 42px;
+  border-radius: 8px;
+ 
+}
+
+.ant-menu-vertical > .ant-menu-item-active{
+  color:#353C42;
+  background: rgba(72, 153, 117, 0.1) !important;
+  width: 236px;
+  height: 42px;
+  border-radius: 8px;
+  
+  
+ 
+}
+.ant-menu-item-selected {
+  color: black !important;
+  background-color:  rgba(72, 153, 117, 0.1)   !important;
+  width: 236px;
+  height:42px;
+  border-radius: 8px;
+}
+.ant-menu-item-open{
+  width: 236px;
+  height: 42px;
+  border-radius: 8px;
+}
+
+.ant-switch-checked{
+  background-color: #4DB86B !important;
+  color: #4caf50;
+  background-color: #4DB86B !important ;
+ 
+}
+.ant-checkbox-checked .ant-checkbox-inner:after {
+  border-color: #Fff !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #4DB86B !important;
+  border-color: #4DB86B !important;
+}
+
+/* @import 'antd/dist/antd.css';
+.search:focus-within{
+  background: #353C42;
+
+} */
+.ant-collapse-header{
+  display: flex;
+  justify-content: space-between;
+}
+.cards{
+  margin-top:20px;
+  width: 194px;
+  height: 30px;
+  border: 1px solid #F5F8FA;
+  border-radius: 8px;
+  font-size: 12px;
+  background-color:#F5F8FA;
+}
+.sidemenuname{
+  margin-top:20px;
+  max-width: 184px;
+  height: 30px;
+  border: 1px solid #F5F8FA;
+  border-radius: 8px;
+  font-size: 12px;
+  background-color:#F5F8FA;
+}
+.ant_btn{
+  background-color: #4caf50;
+}
+.cardhover:hover{
+  transform: scale(1.03);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.08);
+}
